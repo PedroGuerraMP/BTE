@@ -2,12 +2,18 @@
 
 [node name="Node2D" type="Node2D"]
 
+[node name="Camera2D" type="Camera2D" parent="."]
+
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
-[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+[node name="ParallaxLayer1" type="ParallaxLayer" parent="ParallaxBackground"]
 
-[node name="ParallaxL1" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+[node name="ParallaxL1" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer1"]
 
-[node name="ParallaxL2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
 
-[node name="ParallaxL3" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+[node name="ParallaxL2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="ParallaxL3" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
